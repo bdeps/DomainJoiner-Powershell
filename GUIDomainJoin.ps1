@@ -29,7 +29,7 @@ $domain2 = 'contoso2.com'
 $corporateName = 'Sigma IT'
 
 ## Enter the local admin domain group used
-$domainLocalAdmins = 'LINE\LIAL_G_PC_ADMIN'
+$domainLocalAdmins = 'Contoso\LOCAL_ADMIN_Group'
 #---------------------------------------------------------[Change Area Above]-------------------------------------------------
 
 
