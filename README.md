@@ -1,5 +1,9 @@
 # DomainJoiner-Powershell
- joins a specified domain, installs sccm agent
+Joins a domain with the client it's being run on. If you enter a new computername it will also change the name before joining.
+
+After joining the domain there will be an automatic restart.
+It will then automatically log in using your admin credentials and perform the post-join actions (installing sccm-client, adding the computer to AD-Groups and moving it to the correct ou)
+
 
 <# Usage
 
