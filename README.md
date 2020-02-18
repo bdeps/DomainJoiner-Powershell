@@ -22,4 +22,10 @@ Currently supports 2 domains in different forests out of the box. I can make a s
 
 
 
+Planned Improvements/Changes:
+Automatic support for several AD-groups
+
+Another Credential prompt for added stability? Would require entry of local admin + a domain account with rights to join domain/make changes in AD
+
+
 #>
