@@ -5,7 +5,7 @@ After joining the domain there will be an automatic restart.
 It will then automatically log in using your admin credentials and perform the post-join actions (installing sccm-client, adding the computer to AD-Groups and moving it to the correct ou)
 
 
-<# Usage
+# Usage
 
 I edited this down from a more hardcoded script and have not done a testrun of it yet. Please let me know if there are any bugs.
 
@@ -22,10 +22,7 @@ Currently supports 2 domains in different forests out of the box. I can make a s
 
 
 
-Planned Improvements/Changes:
+# Planned Improvements/Changes:
 Automatic support for several AD-groups
 
 Another Credential prompt for added stability? Would require entry of local admin + a domain account with rights to join domain/make changes in AD
-
-
-#>
