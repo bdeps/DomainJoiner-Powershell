@@ -105,7 +105,7 @@ function installSCCMClient{
 }
 
 ## moveComputerOU - moves the computer the script is being run on to the target ou
-## enter a new OU with the following syntax: "OU=Users,OU=Ship Info Screen,OU=Test,OU=Offshore,OU=ISOLATION,OU=Corporate,DC=line,DC=stenanet, DC=com"
+## enter a new OU with the following syntax: "OU=Computers,OU=Corporate, DC=contoso, DC=com"
 ## If you get referral errors please double check the OU path.
 function moveComputerOU([string]$newOU){
     # Retrieve DN of local computer.
